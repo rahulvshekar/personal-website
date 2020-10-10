@@ -1,0 +1,143 @@
+html,
+    body {
+      height: 100%;
+      width: auto;
+    }
+
+    #text {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    :root {
+      color-scheme: light dark;
+    }
+
+    body {
+      margin: 5%;
+      font-family: -apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+      font-size: 24px;
+      font-weight: 200;
+      line-height: 2;
+    }
+
+    blockquote> :first-child {
+      margin-top: 0;
+    }
+
+    blockquote> :last-child {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 950px) {
+      .rwd-break {
+        display: none;
+      }
+
+      blockquotetwo {
+        margin-left: 60px;
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      .rwd-break2 {
+        display: none;
+      }
+
+      blockquotetwo {
+        margin-left: 60px;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      
+      blockquotetwo {
+        margin-left: 0px;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #ffffff;
+        /* #b9d2d2; */
+        background: #313131;
+      }
+
+      a {
+        color: #0fabbc;
+        text-decoration: none;
+        padding-bottom: 1px;
+      }
+
+      blockquote {
+        border-left: 4px solid #454647;
+        padding: 0 20px;
+        color: #999DA0;
+        /* #777A7D; */
+        margin-left: 0px;
+      }
+
+      blockquotetwo {
+        border-left: 4px solid #454647;
+        padding: 0 20px;
+        color: #999DA0;
+      }
+
+      hr {
+        background-color: #454647;
+        color: #454647;
+      }
+
+    }
+
+    @media (prefers-color-scheme: light) {
+
+      body {
+        color: #000000; /* #6a737d; */
+        background-color: #EEEEEE;
+      }
+
+      a {
+        color: #086972;
+        text-decoration: none;
+        padding-bottom: 1px;
+      }
+
+      blockquote {
+        border-left: 4px solid #dfe2e5;
+        padding: 0 15px;
+        color: #6a737d;
+        margin-left: 0px;
+      }
+
+      blockquotetwo {
+        border-left: 4px solid #dfe2e5;
+        padding: 0 15px;
+        color: #6a737d;
+      }
+
+      hr {
+        background-color: #dfe2e5;
+        color: #dfe2e5;
+      }
+
+    }
+
+    h1 {
+      font-size: 80px;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+
+    p3 {
+      white-space: nowrap;
+      overflow: hidden;
+      word-wrap: break-word;
+    }
+
+    hr {
+      border: 0 none;
+      height: 4px;
+      padding: 0;
+      margin: 24px 0;
+    }
